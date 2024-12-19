@@ -1,0 +1,31 @@
+* {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+body {
+    background-color: rgba(114, 173, 228, 0.607); 
+    font-size: medium;
+}
+
+#container {
+    margin: 60px;
+    border: 2px dashed black;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 237, 254, 0.827); 
+}
+
+textarea {
+    width: 800px;
+    height: 250px;
+}
+button {
+    width: 200px;
+    background-color: rgba(104, 136, 167, 0.607); 
+}
